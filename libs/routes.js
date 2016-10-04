@@ -18,6 +18,6 @@ module.exports = (app, db, auth) => {
 
     app.route("/users/:id")
         .all(auth.authenticate())
-        .get((req, res, some) => { ResponseHandler(userController.find(req.params.id), res); });
+        .get((req, res) => ResponseHandler(userController.find(req.params.id), res));
 
 }
