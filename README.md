@@ -39,3 +39,4 @@ npm build
 - GET localhost:3000/users - Return all users
 - GET localhost:3000/users/id - Must inform Authentication HEADER with Bearer Token, return user by ID
 - POST localhost:3000/users - Create user
+- POST localhost:3000/signin
