@@ -1,0 +1,42 @@
+{
+    "extends": "eslint:recommended",
+    "env": {
+        "node": true,
+        "es6": true
+    },
+    "rules": {
+        "strict": 2,
+        "max-len": [
+            2,
+            120,
+            2
+        ],
+        "no-var": 2,
+        "no-eq-null": 2,
+        "no-eval": 2,
+        "no-multi-spaces": 2,
+        "no-throw-literal": 2,
+        "no-useless-concat": 2,
+        "indent": [
+            2,
+            4,
+            {
+                "SwitchCase": 4
+            }
+        ],
+        "quotes": [
+            2,
+            "double"
+        ],
+        "no-console": [
+            1
+        ],
+        "no-unused-vars": [
+            2,
+            {
+                "args": "none",
+                "vars": "all"
+            }
+        ]
+    }
+}
